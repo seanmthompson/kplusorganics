@@ -34,16 +34,21 @@ nav
 	#menu-content
 		float: right
 		text-align: right
-		width: 84.5%
+		width: 100%
 		
 		ul
 			float: right
 			margin: 0 0
 			padding: 0
-			width: 90%
+			width: 100%
 			@media (max-width: 1025px)
 				font-size: 1.3rem
 		
+
+		.social_links
+			float:right
+			width: auto
+
 		.social_link
 			margin-top: 5px
 
@@ -141,9 +146,9 @@ nav
 		.menu_contact
 			&:hover
 				a
-					color: $light_purple
+					color: $orange
 				.selector
-					background: $light_purple
+					background: $orange
 
 		.menu_buyNow
 			&:hover
@@ -152,6 +157,11 @@ nav
 				.selector
 					background: $dark_purple
 
+
+		.hashtag
+			padding-left: 5px
+		.bar
+			margin-right: 5px
 
 //Nav bar media queries tablets & mobile devices			
 nav
@@ -262,7 +272,7 @@ nav
 		
 			.menu_contact
 				div
-					border-left-color: $dark_purple
+					border-left-color: $orange
 
 			.menu_buyNow
 				div
