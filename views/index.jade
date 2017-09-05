@@ -83,6 +83,12 @@ block content
 					if description[x]!=="" && description[x]!== undefined
 						p= description[x]
 				- }
+
+				- var description= cont_who_we["text_body_2"].split("\n")
+				- for (var x = 0; x < description.length; x++){
+					if description[x]!=="" && description[x]!== undefined
+						p= description[x]
+				- }
 		
 		//videos 
 		//div.prev(id=links[9].value)
